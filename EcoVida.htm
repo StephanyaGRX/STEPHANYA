@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoVida - Productos sostenibles</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>EcoVida</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="texto-hero">
+        <h2>Vive verde, vive EcoVida</h2>
+        <p>Productos sostenibles para un planeta mejor</p>
+      </div>
+      <div class="imagen-hero">
+        <img src="./istockphoto-1317323736-612x612.jpg" alt="Naturaleza verde">
+      </div>
+    </section>
+
+    <section id="productos" class="productos">
+      <article class="tarjeta">
+        <img src="./112413-1.jpg" alt="Botella Reutilizable">
+        <h3>Botella Reutilizable</h3>
+        <p>Hecha de acero inoxidable. Durable y ecológica.</p>
+        <button>Más info</button>
+      </article>
+      <article class="tarjeta">
+        <img src="./bolsa-de-tela.jpg" alt="Bolsa de tela">
+        <h3>Bolsa de Tela</h3>
+        <p>Alternativa a las bolsas plásticas. Reutilizable y resistente.</p>
+        <button>Más info</button>
+      </article>
+      <article class="tarjeta">
+        <img src="./images (4).jpg" alt="Cepillo de bambú">
+        <h3>Cepillo de Bambú</h3>
+        <p>Biodegradable y natural. Ideal para el cuidado dental sostenible.</p>
+        <button>Más info</button>
+      </article>
+    </section>
+
+    <section class="comparativa">
+      <table>
+        <caption>Comparativa de Productos</caption>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Beneficio</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Botella</td>
+            <td>Reutilizable</td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <td>Bolsa</td>
+            <td>Duradera</td>
+            <td>$5</td>
+          </tr>
+          <tr>
+            <td>Cepillo</td>
+            <td>Biodegradable</td>
+            <td>$3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contacto" class="formulario">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required placeholder="tucorreo@ejemplo.com">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desarrollado por [Tu nombre] - Todos los derechos reservados © 2025</p>
+  </footer>
+</body>
+
+</html>
